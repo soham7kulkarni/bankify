@@ -16,7 +16,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 
-const MobileNav = ( { user }: MobileNavProps) => {
+const  MobileNav = ( { user }: MobileNavProps) => {
   const pathname = usePathname();
   return (
     <section className="w-full max-w-[264px]">
