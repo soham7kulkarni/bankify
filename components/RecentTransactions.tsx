@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { BankTabItem } from './BankTabItem'
 import BankInfo from './BankInfo'
-import TransactionaTable from './TransactionaTable'
+import TransactionaTable from './TransactionsTable'
 
 
 const RecentTransactions = ({

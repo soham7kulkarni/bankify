@@ -26,7 +26,7 @@ const CategoryBadge = ({ category }: CategoryBadgeProps) => {
     )
 }
 
-const TransactionaTable = ( { transactions } : TransactionTableProps) => {
+const TransactionsTable = ( { transactions } : TransactionTableProps) => {
   return (
     <Table>
         <TableHeader className="bg-[#f9fafb]">
@@ -84,4 +84,4 @@ const TransactionaTable = ( { transactions } : TransactionTableProps) => {
   )
 }
 
-export default TransactionaTable
+export default TransactionsTable
